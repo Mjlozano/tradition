@@ -16,6 +16,7 @@ class SignUp extends Component {
         };
     }
 
+    //Submit handler for log out
     handleSubmit = async event => {
         event.preventDefault();
 

@@ -13,6 +13,7 @@ class SignIn extends Component {
         }
     }
 
+    //Submit handler for log in
     handleSubmit = async (event) => {
         event.preventDefault();
         this.setState({ email: "", password: "" });
