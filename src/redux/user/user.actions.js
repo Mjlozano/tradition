@@ -1,4 +1,6 @@
-export const setCurrenUser = (user) => ({
+
+//set current user state action
+export const setCurrentUser = user => ({
     type: 'SET_CURRENT_USER',
     payload: user
-})
+});
